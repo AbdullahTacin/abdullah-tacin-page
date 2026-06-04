@@ -6,6 +6,24 @@
     font-style: normal;
 }
 
+.btn-lm {
+    font-family: "Azeret Mono", monospace;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 1);
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    height: 47px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -75,4 +93,80 @@ header .hero button {
     font-style: SemiBold;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+
+#whydev {
+    padding: 80px 96px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 90px;
+}
+
+#whydev .container h1 {
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-style: ExtraBold;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#whydev .container p {
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    Opacity: 0.7;
+}
+
+#whydev .container .content-box {
+
+    width: 946px;
+    margin: 0 auto;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#whydev .container .content-box-rev {
+
+    width: 946px;
+    margin: 0 auto;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#whydev .container .content-box .title {
+    color: rgba(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#whydev .container .content-box-rev .title {
+    color: rgba(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#whydev .container .content-box .subtitle {
+
+    color: #0D1321;
+    opacity: 0.7;
+}
+
+#whydev .container .content-box-rev .subtitle {
+
+    color: #0D1321;
+    opacity: 0.7;
 }
