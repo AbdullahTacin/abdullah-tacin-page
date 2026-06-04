@@ -16,26 +16,63 @@ header nav p {
 }
 
 header nav button {
-    word-spacing: 10px;
     color: #0D1321;
     font-size: 20px;
     font-weight: 600;
     border: solid #0D1321 1px;
     border-radius: 8px;
-    opacity: .8;
-    width: 244px;
+    opacity: 0.8;
+    padding: 17px 24px;
+    font-family: "Azeret Mono", monospace;
+    height: 57px;
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 36px 150px;
 }
 
-header .hero{
+header .hero {
     background-image: url(../assets/hero-bg.png);
     background-position: center;
     background-size: cover;
     height: 652px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .hero h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #0D1321;
+    width: 998px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+header .hero p {
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.7;
+    width: 998px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+header .hero button {
+
+    color: white;
+    background-color: #0D1321;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-family: "Azeret Mono";
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
 }
