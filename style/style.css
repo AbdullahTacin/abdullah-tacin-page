@@ -16,6 +16,7 @@
     font-weight: 600;
     opacity: 0.7;
     height: 47px;
+    margin-top: 32px;
 }
 
 
@@ -116,13 +117,16 @@ header .hero button {
     text-align: center;
 }
 
-#whydev .container p {
+#whydev .container > p {
     color: rgba(13, 19, 33, 1);
     font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     Opacity: 0.7;
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 #whydev .container .content-box {
@@ -132,6 +136,9 @@ header .hero button {
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+
+    display: flex;
+    justify-content: space-between;
 }
 
 #whydev .container .content-box-rev {
@@ -141,6 +148,10 @@ header .hero button {
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 32px;
 }
 
 #whydev .container .content-box .title {
@@ -149,6 +160,7 @@ header .hero button {
     font-style: Bold;
     font-size: 24px;
     font-weight: 700;
+    text-align: left;
 }
 
 #whydev .container .content-box-rev .title {
@@ -157,16 +169,31 @@ header .hero button {
     font-style: Bold;
     font-size: 24px;
     font-weight: 700;
+    text-align: left;
 }
 
 #whydev .container .content-box .subtitle {
 
     color: #0D1321;
     opacity: 0.7;
+    text-align: left;
 }
 
 #whydev .container .content-box-rev .subtitle {
 
     color: #0D1321;
     opacity: 0.7;
+    text-align: left;
 }
+
+#whydev .container .content-box .content {
+
+    width: 477px;
+
+}
+
+#whydev .container .content-box-rev .content {
+
+    width: 477px;
+}
+
