@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .btn-lm {
     font-family: "Azeret Mono", monospace;
     padding: 12px 20px 12px 20px;
@@ -117,7 +121,7 @@ header .hero button {
     text-align: center;
 }
 
-#whydev .container > p {
+#whydev .container>p {
     color: rgba(13, 19, 33, 1);
     font-family: "Azeret Mono";
     font-size: 16px;
@@ -197,3 +201,47 @@ header .hero button {
     width: 477px;
 }
 
+
+
+
+#inspir .title {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-style: ExtraBold;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#inspir .subtitle {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    Opacity: 0.7;
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+}
+
+#inspir .vdo {
+
+    width: 1140px;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+
+}
+
+#inspir .vdo iframe{
+
+    border-radius: 16px;
+
+}
