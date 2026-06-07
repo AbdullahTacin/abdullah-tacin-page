@@ -328,3 +328,72 @@ header .hero button {
     gap: 24px;
 
 }
+
+
+
+
+
+
+
+#n-target .n-target-container {
+
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+
+#n-target .title {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-style: ExtraBold;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+#n-target .subtitle {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    Opacity: 0.7;
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+#n-target .n-target-container .n-target-content h2 {
+    color: rgba(13, 19, 33, 1);
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
+
+}
+
+#n-target .n-target-container .n-target-content p {
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    Opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+#n-target .n-target-container .n-target-content a {
+    font-weight: bold;
+    color: rgba(13, 19, 33, 1);
+
+}
