@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -58,6 +58,7 @@ nav {
     margin: 36px 150px;
 }
 
+
 header .hero {
     background-image: url(../assets/hero-bg.png);
     background-position: center;
@@ -99,6 +100,9 @@ header .hero button {
     font-size: 20px;
     font-weight: 600;
 }
+
+
+
 
 
 
@@ -204,6 +208,8 @@ header .hero button {
 
 
 
+
+
 #inspir .title {
 
     color: rgba(13, 19, 33, 1);
@@ -240,8 +246,85 @@ header .hero button {
 
 }
 
-#inspir .vdo iframe{
+#inspir .vdo iframe {
 
     border-radius: 16px;
+
+}
+
+
+
+
+
+
+#target {
+
+    margin-top: 151px;
+    margin-bottom: 111px;
+
+}
+
+#target .title {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-style: ExtraBold;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+#target .subtitle {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    Opacity: 0.7;
+    width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+#target .target-container .target-content {
+
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#target .target-container .target-content h2 {
+
+    color: rgba(13, 19, 33, 1);
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
+
+}
+
+#target .target-container .target-content p {
+
+    color: rgba(13, 19, 33, 1);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    Opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+#target .target-container .target-content a {
+
+    font-weight: bold;
+    color: rgba(13, 19, 33, 1);
+}
+
+#target .target-container {
+
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
 
 }
